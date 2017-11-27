@@ -29,14 +29,13 @@
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-4">
-					<p><b>WEB DESIGNER DEVELOPER</b></p>
-				</div>
-
-				<div class="col-lg-4">
-					<p>Living in the amazing London.</p>
+					<p><b>&copy 2017 Power By <a href="https://www.iokvip.com">iokvip.com</a></b></p>
 				</div>
 				<div class="col-lg-4">
-					<p>linkphper@gmail.com</p>
+					<p><b>皖ICP备15003511号</b></p>
+				</div>
+				<div class="col-lg-4">
+					<p><b>linkphper@gmail.com</b></p>
 				</div>
 			</div>
 		</div>
