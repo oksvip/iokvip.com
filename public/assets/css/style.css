@@ -123,6 +123,11 @@ h1, h2, h3, h4, h5, h6 {
 	color: #1abc9c
 }
 
+.accros {
+	float: left;
+	width: 16.66666667%;
+}
+
 #footerwrap {
 	padding-top: 70px;
 	padding-bottom: 50px;
