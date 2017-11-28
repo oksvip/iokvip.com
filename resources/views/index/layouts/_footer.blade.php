@@ -29,13 +29,13 @@
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-4">
-					<p><b>&copy 2017 Power By <a href="https://www.iokvip.com">iokvip.com</a></b></p>
+					<p>&copy 2017 Power By <a href="{{ env('APP_URL') }}">{{ env('APP_NAME', 'SUNRISE') }}</a></p>
 				</div>
 				<div class="col-lg-4">
-					<p><b>皖ICP备15003511号</b></p>
+					<p>皖ICP备15003511号</p>
 				</div>
 				<div class="col-lg-4">
-					<p><b>linkphper@gmail.com</b></p>
+					<p>linkphper@gmail.com</p>
 				</div>
 			</div>
 		</div>

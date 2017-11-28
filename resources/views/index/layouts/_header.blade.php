@@ -7,15 +7,16 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="{{ route('home') }}">SUNRISE</a>
+				<a class="navbar-brand" href="{{ route('home') }}">{{ env('APP_NAME', 'SUNRISE') }}</a>
 			</div>
 			<!-- Menu -->
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="{{ route('home') }}">Home</a></li>
-					<li><a href="{{ route('works.index') }}">Works</a></li>
-					<li><a href="{{ route('about') }}">About</a></li>
-					<li><a href="{{ route('contact') }}">Contact</a></li>
+					@if(isset($indexMenus) && count($indexMenus) > 0)
+						@foreach($indexMenus as $key=>$menu)
+							<li @if($key === \Request::url()) class="active" @endif><a href="{{ $key }}">{{ $menu }}</a></li>
+						@endforeach
+					@endif
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
