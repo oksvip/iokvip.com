@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', 'IndexController@index')->name('home');
-Route::get('/about', 'PagesController@about')->name('about');
-Route::get('/contact', 'PagesController@contact')->name('contact');
-Route::get('/works', 'WorksController@index')->name('works.index');
-Route::get('/works/show', 'WorksController@show')->name('works.show');
+Route::get('/', 'Index\IndexController@index')->name('home');
+Route::get('/about', 'Index\PagesController@about')->name('about');
+Route::get('/contact', 'Index\PagesController@contact')->name('contact');
+Route::get('/works', 'Index\WorksController@index')->name('works.index');
+Route::get('/works/show', 'Index\WorksController@show')->name('works.show');
