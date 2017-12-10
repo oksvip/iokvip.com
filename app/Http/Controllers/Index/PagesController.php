@@ -13,4 +13,9 @@ class PagesController extends IndexBaseController
     {
         return view('index.pages.contact');
     }
+
+    public function error404()
+    {
+        return view('errors.404');
+    }
 }
